@@ -10,7 +10,7 @@ USERS = {
 }
 
 # username, productids paired index to index with their order date. in a db this would be separate columns.
-# needs to be cleaned periodically, keep longer-term data in archive
+# needs to be cleaned periodically, keep longer-term data in archival database
 RECENT_ORDERS = {
 
     "admin": [["8ABC","ASJC", "ABSC"], ["07/2026", "05/2026", "01/2026"]],
