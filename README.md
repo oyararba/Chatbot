@@ -5,7 +5,7 @@ Helping users find a lost item
 - Python 3.10+ (I used Python 3.14) [installer](https://www.python.org/downloads/)
 
 ### B. Brief explanation of approach
-My approach simulates a database-driven supprot flow that prioritizes input flexibility and fault tolerance. 
+My approach simulates a database-driven support flow that prioritizes input flexibility and fault tolerance. 
 
 - I use secure authentitcation with Python's getpass which hides the password. I apply a basic normalization to the raw inputs, as well as identifying and preventing basic SQL-injection based attacks before granting access to the user.
 - I used hardcoded dictionaries in place of a real database connection, and this was primarily to keep the design simple and easily reproducible. NOTE: This is actually something I'd like to go more in depth on if I had more time.
