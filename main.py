@@ -1,28 +1,4 @@
 
-# ADD TO README: NOTE: assignment was said to be simple but if i was extending this further i'd add a mySQL database connection part\
-    # import mysql.connector
-
-    
-    # connection = mysql.connector.connect(
-    #     host="localhost",
-    #     user="root",
-    #     password="my_password",
-    #     database="app_db"
-    # )
-
-    
-    # cursor = connection.cursor()
-
-    
-    # cursor.execute(... parameterized query ... )
-    # result = cursor.fetchone() (return 1 result or fetchall() for all results)
-
-    # close to free up 
-    # cursor.close()
-    # connection.close()
-
-# but since i want it more easily reproducible/scale is small for this assn, we can just have it as object lookup tables for quick UX example
-
 import getpass
 
 USERS = {
